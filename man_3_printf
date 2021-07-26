@@ -1,0 +1,73 @@
+.TH man 3 "26 July 2021" "0.1" "man _printf"
+
+.SH NAME
+.B _printf function - formats and prints data to standard output
+
+.SH SYNOPSIS
+.B _printf - Team project of 2. Drafting man page for our custom printf function
+.P
+.B #include "holberton.h"
+
+.SH DESCRIPTION
+.B _printf
+- The printf function formats and prints a series of characters nad values to the standard output stream stdout.
+
+.SH Format Specifiers 
+.TP
+.BR %c
+- T.
+
+.TP
+.BR %c
+- This format specifier prints a single character. 
+
+
+.TP
+.BR %d
+- This format specifier prints a decimal (base 10) number. 
+
+
+.TP
+.BR %e
+- This format specifier prints an exponential floating-point number.
+
+
+.TP
+.BR %f
+- This format specifier prints floating-point number.
+
+
+.TP
+.BR %g 
+- This format specifier prints general-format floating-point number. 
+
+
+.TP
+.BR %i 
+- This format specifier prints an integer in base 10.
+
+
+.TP
+.BR %o 
+- This format specifier prints a number in octal (base 8).
+
+
+.TP
+.BR %s
+- This format specifier prints a string of characters.
+
+
+.TP
+.BR %u
+- This format specifier prints an unsigned decimal (base 10) number.
+
+
+.TP
+.BR %x
+- This format specifier prints a number in hexidecimal (base 16)
+
+
+.TP
+.BR %%
+- This format specifier prints a percent sign (\% also works)
+
