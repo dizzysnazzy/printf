@@ -12,3 +12,52 @@
 .B _printf
 - The printf function formats and prints a series of characters nad values to the standard output stream stdout.
 
+.SH Format Specifiers 
+.TP
+.BR %c
+- T.
+
+.TP
+.BR %c
+- This format specifier prints a single character. 
+
+.TP
+.BR %d
+- This format specifier prints a decimal (base 10) number. 
+
+.TP
+.BR %e
+- This format specifier prints an exponential floating-point number.
+
+.TP
+.BR %f
+- This format specifier prints floating-point number.
+
+.TP
+.BR %g 
+- This format specifier prints general-format floating-point number. 
+
+.TP
+.BR %i 
+- This format specifier prints an integer in base 10.
+
+.TP
+.BR %o 
+- This format specifier prints a number in octal (base 8).
+
+.TP
+.BR %s
+- This format specifier prints a string of characters.
+
+.TP
+.BR %u
+- This format specifier prints  an unsigned decimal (base 10) number.
+
+.TP
+.BR %u
+- This format specifier prints
+
+.TP
+.BR %u
+- This format specifier prints
+
