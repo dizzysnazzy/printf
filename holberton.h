@@ -10,6 +10,8 @@
  * @plus: flag for the '+' character
  * @space: flag for the ' ' character
  * @hash: flag for the '#' character
+ * @neg: flag for the '-' character
+ * @zero: flag for the '0' character
  */
 typedef struct flags
 {
@@ -28,8 +30,8 @@ typedef struct flags
  */
 typedef struct printHandler
 {
-        char c;
-        int (*f)(va_list ap, flags_t *f);
+char c;
+int (*f)(va_list ap, flags_t *f);
 } ph;
 
 /* get_print */
