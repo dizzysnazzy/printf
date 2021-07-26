@@ -7,28 +7,6 @@
 /* DEFINE*/
 #include <limits.h>
 #include <unistd.h>
-#define ZERO 8
-#define NEG 16
-
-/*FLAG_S*/
-/**
- * struct flag_s - A new type defining a flags struct.
- * @flag: A character representing a flag.
- * @value: The integer value of the flag.
- */
-typedef struct flag_s
-{
-	unsigned char flag;
-	unsigned char value;
-} flag_t;
-
-/*HANDLE_FLAGS */
-unsigned char handle_flags(const char *flag, char *index);
-unsigned char handle_length(const char *modifier, char *index);
-int handle_width(va_list args, const char *modifier, char *index);
-int handle_precision(va_list args, const char *modifier, char *index);
-unsigned int (*handle_specifiers(const char *specifier))(va_list, buffer_t *,
-							 unsigned char, int, int, unsigned char);
 
 /**
  * struct flags - struct containing flags to "turn on"
