@@ -1,0 +1,9 @@
+.TH man 3 "26 July 2021" "0.1" "man _printf"
+
+.SH NAME
+.B _printf function - formats and prints a series of characters nad values to the standard output stream stdout
+
+.SH SYNOPSIS
+.B _printf - Team project of 2. Drafting man page for our custom printf function
+.P
+.B #include "holberton.h"
