@@ -4,6 +4,25 @@
 #include <stdlib.h>
 #include <stdarg.h>
 
+/* DEFINE*/
+#define ZERO 8
+#define NEG 16
+
+/*FLAG_S*/
+/**
+ * struct flag_s - A new type defining a flags struct.
+ * @flag: A character representing a flag.
+ * @value: The integer value of the flag.
+ */
+typedef struct flag_s
+{
+	unsigned char flag;
+	unsigned char value;
+} flag_t;
+
+/*HANDLE_FLAGS */
+unsigned char handle_flags(const char *flag, char *index);
+
 /**
  * struct flags - struct containing flags to "turn on"
  * when a flag specifier is passed to _printf()
