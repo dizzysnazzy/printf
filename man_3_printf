@@ -89,5 +89,31 @@
 .BR \%
 - This prints a percent sign
 
+.SH "Hello, World!" using _printf
 
-.SH RETURN VALUE
+.B main.c
+#include "holberton.h"
+
+int main(void) 
+{
+    _printf("Hello, World!\n");     // We use quotation to insert the string of characters to print
+    return 0;
+}
+
+.B Output:
+Hello, World!
+
+
+.SH RETURN STATEMENT
+- Special code in a function which allows to return information back to whoever called.
+
+.SH SEE ALSO
+.I printf(1), printf(3)
+
+.SH CREDITS
+.TP
+Custom _printf project by:
+Yunus Kidem Tesfaye <https://github.com/Yunus-kidem>
+Dismas Kipchumba <https://github.com/dizzysnazzy>
+
+

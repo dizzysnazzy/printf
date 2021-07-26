@@ -28,8 +28,8 @@ typedef struct flags
  */
 typedef struct printHandler
 {
-	char c;
-	int (*f)(va_list ap, flags_t *f);
+        char c;
+        int (*f)(va_list ap, flags_t *f);
 } ph;
 
 /* get_print */
