@@ -71,3 +71,23 @@
 .BR %%
 - This format specifier prints a percent sign (\% also works)
 
+.SH Useful Special characters
+
+.TP
+.BR \\ 
+- This prints a backslash.
+
+.TP
+.BR \n
+- This prints a new line.
+
+.TP
+.BR \t 
+- This prints tab.
+
+.TP
+.BR \%
+- This prints a percent sign
+
+
+.SH RETURN VALUE
