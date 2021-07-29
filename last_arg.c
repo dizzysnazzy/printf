@@ -27,12 +27,12 @@ int switchs(const char *str, va_list arg)
       count++;
       return (count);
     case 'd':
-      s = _itoa(va_arg(arg, int), s, 10);
+      s = (va_arg(arg, int), s, 10);
       _puts(s);
       count += _strlen(s);
       return (count);
     case 'i':
-      s = _itoa(va_arg(arg, int), s, 10);
+      s = (va_arg(arg, int), s, 10);
       _puts(s);
       count += _strlen(s);
       return (count);
