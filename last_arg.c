@@ -20,7 +20,7 @@ int switchs(const char *str, va_list arg)
   switch (*str)
     {
     case 's':
-      return (print_s(str, arg));
+      return (print_rev(str, arg));
     case 'c':
       c = va_arg(arg, int);
       _putchar(c);
@@ -42,9 +42,9 @@ int switchs(const char *str, va_list arg)
       count++;
       return (count);
     case 'b':
-      return (print_b(arg));
+      return (print_bigS(arg));
     case 'r':
-      return (_rev(arg));
+      return (rev(arg));
     default:
       _putchar('%');
       _putchar(*str);
