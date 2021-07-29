@@ -77,11 +77,4 @@ int print_bigS(va_list l, flags_t *f);
 /* print_percent */
 int print_percent(va_list l, flags_t *f);
 
-/* print_check */
-int  print_number(unsigned int n);
-int countDigits(unsigned int num);
-int countOctal(unsigned int num);
-int countBinary(unsigned int num);
-int _strlen(char *str);
-
 #endif
