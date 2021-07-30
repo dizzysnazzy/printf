@@ -12,19 +12,19 @@
 .B _printf
 - The printf function formats and prints a series of characters nad values to the standard output stream stdout.
 
-.SH Format Specifiers 
+.SH Format Specifiers
 .TP
 .BR %c
 - T.
 
 .TP
 .BR %c
-- This format specifier prints a single character. 
+- This format specifier prints a single character.
 
 
 .TP
 .BR %d
-- This format specifier prints a decimal (base 10) number. 
+- This format specifier prints a decimal (base 10) number.
 
 
 .TP
@@ -38,17 +38,17 @@
 
 
 .TP
-.BR %g 
-- This format specifier prints general-format floating-point number. 
+.BR %g
+- This format specifier prints general-format floating-point number.
 
 
 .TP
-.BR %i 
+.BR %i
 - This format specifier prints an integer in base 10.
 
 
 .TP
-.BR %o 
+.BR %o
 - This format specifier prints a number in octal (base 8).
 
 
@@ -74,7 +74,7 @@
 .SH Useful Special characters
 
 .TP
-.BR \\ 
+.BR \\
 - This prints a backslash.
 
 .TP
@@ -82,7 +82,7 @@
 - This prints a new line.
 
 .TP
-.BR \t 
+.BR \t
 - This prints tab.
 
 .TP
@@ -93,8 +93,12 @@
 
 .B main.c
 #include "holberton.h"
-
-int main(void) 
+/**
+ * main - main function
+ *
+ * Return: Always 0
+ */
+int main(void)
 {
     _printf("Hello, World!\n");     // We use quotation to insert the string of characters to print
     return 0;
